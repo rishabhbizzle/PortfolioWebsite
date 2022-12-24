@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <div name="about" className="h-8 lg:h-0"> //h-24 lg:h-28 "
+      <div name="about" className="h-8 lg:h-0">
       </div>
     <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div>
               <p>A self taught programmer from India. I am passionate about building excellent software that improves
-              the lives of those around me. I’m a full-stack developer and an aspiring software developer. Currently, focused on improving my data structures and algorithms skills while learning & exploring new technologies as well. In freetime I watch anime and listen to bieber's music xD</p>  
+              the lives of those around me. I’m a full-stack developer and an aspiring software developer. Currently, focused on improving my data structures and algorithms skills while learning & exploring new technologies as well. In freetime I watch anime and listen to drake & bieber's music a lot xD</p>  
             </div>
           </div>
       </div>
