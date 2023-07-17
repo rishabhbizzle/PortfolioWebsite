@@ -29,6 +29,11 @@ function Navbar() {
           </Link>
         </li>
         <li className="px-4">
+          <Link to="experience" smooth={true} duration={500}>
+            Experince
+          </Link>
+        </li>
+        <li className="px-4">
           <Link to="skills" smooth={true} duration={500}>
             Skills
           </Link>
@@ -66,6 +71,11 @@ function Navbar() {
         <li className="p-4 text-4xl">
           <Link onClick={handleNav} to="about" smooth={true} offset={50} duration={500}>
             About
+          </Link>
+        </li>
+        <li className="p-4 text-4xl">
+          <Link onClick={handleNav} to="experience" smooth={true} duration={500}>
+            Experience
           </Link>
         </li>
         <li className="p-4 text-4xl">
@@ -117,7 +127,8 @@ function Navbar() {
           </li>
           <li className="w-[160px] px-4 h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] text-gray-300">
             <a
-              href="/resume.pdf"
+              target="_blank"
+              href="/Rishabh Resume.pdf"
               className="flex justify-between items-center w-full text-gray-300"
             >
               Resume <BsFillPersonLinesFill size={30} />

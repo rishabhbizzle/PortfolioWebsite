@@ -79,7 +79,7 @@ function Home() {
           <li className="mx-2 w-[60px] px-4 h-[60px] flex justify-center items-center hover:scale-110 duration-500 bg-purple-600 text-gray-300">
             <a target="_blank"
             rel="noreferrer"
-              href="/resume.pdf"
+              href="/Rishabh Resume.pdf"
               className="flex justify-between items-center w-full text-gray-300"
             >
             <BsFillPersonLinesFill size={30} />
