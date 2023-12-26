@@ -22,9 +22,8 @@ const Experience = () => {
             <img
               className="w-28 rounded-xl"
               src={
-                "https://media.licdn.com/dms/image/C4D0BAQFsb1FUZlm7VQ/company-logo_200_200/0/1653373725419?e=1697673600&v=beta&t=3gnCwQ5C8pgQeXV8Dp1R1DsWin2M9OKVDU2e_nuScs8"
+                "https://media.licdn.com/dms/image/C4D0BAQFsb1FUZlm7VQ/company-logo_200_200/0/1653373725903/depo_24_logo?e=1711584000&v=beta&t=qQhgDUx-Oot7p4YnrHzr5FBjulgVorkk2etugtpvtFo"
               }
-              alt="Depo24 icon"
             />
             <p className="text-3xl my-4 mx-auto font-bold">Depo24</p>
           </div>
@@ -73,9 +72,8 @@ const Experience = () => {
             <img
               className="w-28 rounded-xl"
               src={
-                "https://media.licdn.com/dms/image/C4D0BAQG36LyaziwFPw/company-logo_200_200/0/1629697930773?e=1697673600&v=beta&t=cyFq454yt0VA1LJ_-hTZxO8XOc1SYnqeWtIbe5v7gr8"
+                "https://media.licdn.com/dms/image/C4D0BAQG36LyaziwFPw/company-logo_200_200/0/1630505466185?e=1711584000&v=beta&t=QOHgJfg61XZ6LEd4-RpXoVDLzRV4uHhL9LaBSyzb1EA"
               }
-              alt="HTML icon"
             />
             <p className="text-3xl my-4 mx-auto font-bold">Project Parvaah</p>
           </div>
