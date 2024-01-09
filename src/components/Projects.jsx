@@ -10,12 +10,12 @@ import BBcharts from "../assets/bbcharts.png";
 
 const Projects = () => {
   return (
-    <div className="mt-20 md:mb-32 w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div className="mt-20 md:mb-32 w-full md:h-screen text-gray-300 bg-[#1A1A1A]">
       <div name="projects" className="lg:h-28">
       </div>
       <div  className="py-32 max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#FACC15]">
             Projects
           </p>
           <p className="py-6">// Check out some of my recent projects</p>
