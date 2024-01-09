@@ -11,7 +11,7 @@ function Navbar() {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-[80px] bg-[#0a192f] text-gray-300 flex justify-between items-center py-2 px-2">
+    <div className="fixed w-full h-[80px] bg-[#1A1A1A] text-gray-300 flex justify-between items-center py-2 px-2">
       <div>
         <img src="" alt="" />
       </div>
@@ -60,7 +60,7 @@ function Navbar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 flex items-center mx-auto justify-center flex-col bg-[#0a192f] h-screen w-full"
+            : "absolute top-0 left-0 flex items-center mx-auto justify-center flex-col bg-[#1A1A1A] h-screen w-full"
         }
       >
         <li className="p-4 text-4xl">

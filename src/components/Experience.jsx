@@ -6,13 +6,13 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full  bg-[#0a192f] text-gray-300 mb-32 lg:mb-28"
+      className="w-full  bg-[#1A1A1A] text-gray-300 mb-32 lg:mb-28"
     >
       <div name="experience" className="h-28 lg:h-12"></div>
       {/* Container */}
       <div className="lg:my-12 max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold border-b-4 inline border-pink-600">
+          <p className="text-4xl font-bold border-b-4 inline border-[#FACC15]">
             Work Experience
           </p>
           <p className="py-4 ">// Companies I've worked for:</p>
@@ -30,7 +30,7 @@ const Experience = () => {
           <div className="col-span-5">
             <div className="md:flex justify-between">
               <div className="flex p-1 gap-1">
-                <MdWork className="text-4xl text-pink-600" />
+                <MdWork className="text-4xl text-[#FACC15]" />
                 <p className="text-2xl font-medium">Full Stack Developer</p>
               </div>
               <div className="flex gap-2 px-5 py-1 items-center font-medium">
@@ -38,7 +38,7 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex gap-2 px-5 py-1 items-center">
-              <FaCode className="text-pink-600 w-[4%]" size={60} />
+              <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Developed and maintained a comprehensive e-commerce admin portal
                 using React.js, Node.js, MongoDB, and PostgreSQL, empowering
@@ -47,7 +47,7 @@ const Experience = () => {
               </p>
             </div>
             <div className="flex gap-2 px-5 items-center py-1">
-              <FaCode className="text-pink-600 w-[4%]" size={60} />
+              <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Implemented role-based access control (RBAC) and integrated
                 analytics and reporting features into the admin portal,
@@ -57,7 +57,7 @@ const Experience = () => {
               </p>
             </div>
             <div className="flex gap-2 px-5 items-center py-1">
-              <FaCode className="text-pink-600 w-[4%]" size={60} />
+              <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Collaborated with cross-functional teams to develop and enhance
                 order management capabilities, including order processing,
@@ -80,7 +80,7 @@ const Experience = () => {
           <div className="col-span-5">
           <div className="md:flex justify-between">
               <div className="flex p-1 gap-1">
-                <MdWork className="text-4xl text-pink-600" />
+                <MdWork className="text-4xl text-[#FACC15]" />
                 <p className="text-2xl font-medium">Full Stack Developer</p>
               </div>
               <div className="flex gap-2 px-5 py-1 items-center font-medium">
@@ -88,14 +88,14 @@ const Experience = () => {
               </div>
             </div>
             <div className="flex gap-2 px-5 py-1 items-center">
-              <FaCode className="text-pink-600 w-[4%]" size={60} />
+              <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Worked on an Ed-Tech platform to help and support disabled
                 people.
               </p>
             </div>
             <div className="flex gap-2 px-5 py-1 items-center">
-              <FaCode className="text-pink-600 w-[4%]" size={60} />
+              <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Collaborated with team members to ensure effective UI/UX design
                 and development Worked with various technologies such as

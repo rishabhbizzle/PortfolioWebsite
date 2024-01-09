@@ -9,10 +9,10 @@ import {SiLeetcode} from 'react-icons/si'
 
 function Home() {
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen bg-[#1A1A1A]'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-        <p className='md:mb-[-10px] text-pink-600'>Hi, my name is</p>
+        <p className='md:mb-[-10px] text-[#FACC15]'>Hi, my name is</p>
         <div className='flex justify-between items-center'>
         <h1 className='text-5xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Rishabh Jain
@@ -20,11 +20,11 @@ function Home() {
         <img className='icon hidden md:flex' src={icon} alt="icon" />
         </div>
         <div className='flex flex-row  lg:mt-[-12px]'>
-        <h2 className='text-2xl sm:text-5xl font-bold text-[#8892b0]'>
+        {/* <h2 className='text-2xl sm:text-5xl font-bold text-[#8892b0]'>
           I'm a  
-        </h2>
+        </h2> */}
         <Typed
-          className='pl-2 md:pl-3 lg:pl-4 text-2xl sm:text-5xl font-bold text-[#8892b0] items-center'
+          className='text-2xl sm:text-5xl font-bold text-[#8892b0] items-center'
             strings={['Full Stack Developer', 'Software Developer']}
             typeSpeed={199}
             backSpeed={200}
@@ -37,7 +37,7 @@ function Home() {
         </p>
         <div>
         <Link to="about" smooth={true} offset={50} duration={500}>
-          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600'>
+          <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FACC15] hover:border-[#FACC15]'>
             
             Learn More
           
