@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -95,13 +95,13 @@ function Navbar() {
         </li>
       </ul>
       {/* socials */}
-      <div className="hidden lg:flex fixed flex-col top-[28%] left-0">
+      <div className="hidden lg:flex fixed flex-col top-[20%] left-0">
         <ul>
           <li className="w-[160px] px-4 h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600 text-gray-300">
             <a target="_blank"
             rel="noreferrer"
               href="https://www.linkedin.com/in/rishabh223/"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -110,7 +110,7 @@ function Navbar() {
             <a target="_blank"
             rel="noreferrer"
               href="https://github.com/rishabhbizzle"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
             >
               Github <FaGithub size={30} />
             </a>
@@ -120,7 +120,7 @@ function Navbar() {
             target="_blank"
             rel="noreferrer"
               href="https://leetcode.com/bizzxle/"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
             >
               Leetcode <SiLeetcode size={30} />
             </a>
@@ -129,7 +129,7 @@ function Navbar() {
             <a
               target="_blank"
               href="/Rishabh Resume.pdf"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
@@ -137,9 +137,18 @@ function Navbar() {
           <li className="w-[160px] px-4 h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0] text-gray-300">
             <a
               href="mailto:rishabhbizzle@gmail.com"
-              className="flex justify-between items-center w-full text-gray-300"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
             >
               Mail <HiOutlineMail size={30} />
+            </a>
+          </li>
+          <li className="w-[160px] px-4 h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a159e4] text-gray-300">
+            <a
+              href="https://twitter.com/rishabhtwt"
+              target="_blank"
+              className="flex justify-between items-center w-full text-gray-300 h-full"
+            >
+              Twitter / X <FaTwitter size={30} />
             </a>
           </li>
           
