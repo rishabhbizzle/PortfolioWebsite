@@ -36,9 +36,11 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                  Code
-                </button>
+                <a href="https://github.com/rishabhbizzle/spotAnalytics">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -57,14 +59,12 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/rishabhbizzle/jbspotifydata">
-                  <button
-                    disabled
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-700 font-bold text-lg"
-                  >
-                    Code
-                  </button>
-                </a>
+                <button
+                  disabled
+                  className="text-center rounded-lg px-4 py-3 m-2 bg-gray-400 text-gray-700 font-bold text-lg"
+                >
+                  Code
+                </button>
               </div>
             </div>
           </div>
