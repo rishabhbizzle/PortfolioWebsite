@@ -20,8 +20,8 @@ const About = () => {
               <p>Hi. I'm Rishabh, nice to meet you. Please take a look around.</p>
             </div>
             <div>
-              <p>A self taught programmer from India. I’m a full-stack developer and an aspiring software developer. I am passionate about building excellent software that improves
-              the lives of those around me. Currently, focused on improving my data structures and algorithms skills while learning & exploring new technologies as well. My dream company is Spotify. In freetime I learn Japanese language and listen to drake & bieber's music a lot xD</p>  
+              <p>A self taught programmer from India. I am passionate about building excellent software that improves
+              the lives of those around me. My dream company is Spotify. In freetime I learn Japanese language and listen to drake & bieber's music a lot xD</p>  
             </div>
           </div>
       </div>
