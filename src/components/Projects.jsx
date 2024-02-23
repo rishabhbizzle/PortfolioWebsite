@@ -4,6 +4,7 @@ import QuoteApp from "../assets/quotes.png";
 import SpotApp from "../assets/spot2.png";
 import Pos from "../assets/pos.png";
 import DataProject from "../assets/dataproject.png";
+import ReactRover from "../assets/reactrover.png";
 import BBcharts from "../assets/bbcharts.png";
 import ResumeLint from "../assets/resumeLint.png";
 
@@ -34,7 +35,7 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a href="https://statsforfans.azurewebsites.net/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Link
                   </button>
                 </a>
                 <a href="https://github.com/rishabhbizzle/spotAnalytics">
@@ -57,7 +58,7 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a href="https://dev.pos.depo24.in">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Link
                   </button>
                 </a>
                 <button
@@ -66,6 +67,29 @@ const Projects = () => {
                 >
                   Code
                 </button>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${ReactRover})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                ReactRover
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://reactrover.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Link
+                  </button>
+                </a>
+                <a href="https://github.com/rishabhbizzle/react-rover">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -81,7 +105,7 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a href="https://cute-notes.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Link
                   </button>
                 </a>
                 <a href="https://github.com/rishabhbizzle/anya-notes-app">
@@ -104,7 +128,7 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a href="https://resumelint.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Link
                   </button>
                 </a>
                 <a href="https://github.com/rishabhbizzle/resumelint">
@@ -127,7 +151,7 @@ const Projects = () => {
               <div className="pt-8 text-center">
                 <a href="https://billboard-charts.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                    Link
                   </button>
                 </a>
                 <a href="https://github.com/rishabhbizzle/BillboardCharts">
@@ -138,30 +162,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div
-            style={{ backgroundImage: `url(${DataProject})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Data Analysis Project
-              </span>
-              <div className="pt-8 text-center">
-                <a href="https://github.com/rishabhbizzle/anime-data-analysis/blob/master/analysis.ipynb">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="https://github.com/rishabhbizzle/anime-data-analysis">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Grid Item */}
+          
         </div>
       </div>
     </div>
