@@ -140,21 +140,21 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${BBcharts})` }}
+            style={{ backgroundImage: `url(${DataProject})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Billboard Music Charts
+                Data Analysis Project
               </span>
               <div className="pt-8 text-center">
-                <a href="https://billboard-charts.netlify.app/">
+                <a href="https://github.com/rishabhbizzle/anime-data-analysis">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Link
                   </button>
                 </a>
-                <a href="https://github.com/rishabhbizzle/BillboardCharts">
+                <a href="https://github.com/rishabhbizzle/anime-data-analysis">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
