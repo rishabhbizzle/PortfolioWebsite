@@ -19,12 +19,7 @@ const Experience = () => {
         </div>
         <div className="gap-4 my-12 grid sm:grid-cols-6">
           <div className="col-span-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img
-              className="w-28 rounded-xl"
-              src={
-                "https://media.licdn.com/dms/image/C4D0BAQFsb1FUZlm7VQ/company-logo_200_200/0/1653373725903/depo_24_logo?e=1711584000&v=beta&t=qQhgDUx-Oot7p4YnrHzr5FBjulgVorkk2etugtpvtFo"
-              }
-            />
+            <img className="w-28 rounded-xl" src="/depo24.jpeg" />
             <p className="text-3xl my-4 mx-auto font-bold">Depo24</p>
           </div>
           <div className="col-span-5">
@@ -53,16 +48,15 @@ const Experience = () => {
                 analytics and reporting features into the admin portal,
                 providing administrators with real-time insights into sales,
                 inventory, and customer behavior, facilitating data-driven
-                decision-making.
+                decision-making, resulting in a 40% increase in efficiency
               </p>
             </div>
             <div className="flex gap-2 px-5 items-center py-1">
               <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
-                Collaborated with cross-functional teams to develop and enhance
-                order management capabilities, including order processing,
-                shipment tracking, and customer communication, streamlining
-                operations and improving customer satisfaction.
+                Delivered a brand new Franchise POS (Point of Sale) system,
+                facilitating streamlined order processing at franchise stores
+                which significantly increased the revenue.
               </p>
             </div>
           </div>
@@ -71,14 +65,12 @@ const Experience = () => {
           <div className="col-span-1 shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
               className="w-28 rounded-xl"
-              src={
-                "https://media.licdn.com/dms/image/C4D0BAQG36LyaziwFPw/company-logo_200_200/0/1630505466185?e=1711584000&v=beta&t=QOHgJfg61XZ6LEd4-RpXoVDLzRV4uHhL9LaBSyzb1EA"
-              }
+              src="/projectparvah.jpeg"
             />
             <p className="text-3xl my-4 mx-auto font-bold">Project Parvaah</p>
           </div>
           <div className="col-span-5">
-          <div className="md:flex justify-between">
+            <div className="md:flex justify-between">
               <div className="flex p-1 gap-1">
                 <MdWork className="text-4xl text-[#FACC15]" />
                 <p className="text-2xl font-medium">Full Stack Developer</p>
@@ -87,14 +79,14 @@ const Experience = () => {
                 Sept 2022 - Nov 2022
               </div>
             </div>
-            <div className="flex gap-2 px-5 py-1 items-center">
+            <div className="flex gap-2 px-5 pt-1 items-center">
               <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Worked on an Ed-Tech platform to help and support disabled
                 people.
               </p>
             </div>
-            <div className="flex gap-2 px-5 py-1 items-center">
+            <div className="flex gap-2 px-5 items-center">
               <FaCode className="text-[#FACC15] w-[4%]" size={60} />
               <p className="text-md w-[90%]">
                 Collaborated with team members to ensure effective UI/UX design
