@@ -8,10 +8,10 @@ import { SiLeetcode } from "react-icons/si";
 
 function Home() {
   return (
-    <div name="home" className="w-full h-screen bg-[#1A1A1A]">
+    <div name="home" className="w-full h-screen bg-black">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="md:mb-[-10px] text-[#FACC15]">Hi, my name is</p>
+        <p className="md:mb-[-10px] text-[#16B308]">Hi, my name is</p>
         <div className="flex justify-between items-center">
           <h1 className="text-5xl sm:text-7xl font-bold text-[#ccd6f6]">
             Rishabh Jain
@@ -36,7 +36,7 @@ function Home() {
         </p>
         {/* <div>
           <Link to="about" smooth={true} offset={50} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#FACC15] hover:border-[#FACC15]">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#16B308] hover:border-[#16B308]">
               Learn More
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3 " />

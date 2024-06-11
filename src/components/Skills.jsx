@@ -49,12 +49,12 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="w-full h-screen bg-[#1A1A1A] text-gray-300 mb-32 lg:mb-0">
+    <div className="w-full h-screen bg-black text-gray-300 mb-32 lg:mb-0">
       <div name="skills" className="h-32 lg:h-0"></div>
       {/* Container */}
       <div className="lg:my-12 max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold border-b-4 inline border-[#FACC15]">
+          <p className="text-4xl font-bold border-b-4 inline border-[#16B308]">
             Tech Stack
           </p>
           <p className="py-4 ">
